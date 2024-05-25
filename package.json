@@ -1,5 +1,5 @@
 {
-	"name": "npmjs",
+	"name": "utils-first",
 	"version": "1.0.0",
 	"description": "上传npm包测试",
 	"main": "index.js",
