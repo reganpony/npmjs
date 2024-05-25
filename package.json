@@ -15,5 +15,8 @@
 	"repository": {
 		"url": "https://github.com/reganpony/npmjs",
 		"type": "git"
-	}
+	},
+	"files": [
+		"./src/**/*"
+	]
 }
