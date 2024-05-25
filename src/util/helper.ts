@@ -1,5 +1,5 @@
-export default class Helper {
-    public static run() {
-        console.log('hello world');
+export default class NpmUtil {
+    public static run(): number {
+        return 123;
     }
 }

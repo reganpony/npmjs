@@ -1,4 +1,11 @@
-import Helper from "./util/helper";
+import NpmUtil from "@/util/helper";
 
-console.log('hello world');
-Helper.run();
+export default class Demo {
+    public static run() {
+        return Date.now();
+    }
+
+    public static print() {
+        NpmUtil.run()
+    }
+}
