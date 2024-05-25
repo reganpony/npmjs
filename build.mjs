@@ -1,4 +1,5 @@
 import esbuild from 'esbuild'
+import dtsPlugin from "esbuild-plugin-d.ts";
 
 class Bundle {
 
@@ -36,6 +37,10 @@ class Bundle {
 				'.ts': 'ts',
 			},
 			plugins: [
+				dtsPlugin({
+					outDir: './dist',
+					tsconfig: 'tsconfig.json'
+				})
 				// esbuildPluginTsc({
 				// 	force: true,
 				// 	tsx: false,

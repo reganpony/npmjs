@@ -1,3 +1,3 @@
-export default class NpmUtil {
+export declare class NpmUtil {
     static run(): number;
 }
